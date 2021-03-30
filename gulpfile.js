@@ -97,7 +97,7 @@ const dist = "./dist/";
  exports.buildcopy = buildcopy;  //Выгрузка финальной сборки в dist
 
 
- exports.default = gulp.parallel(buildcopy, startwatch, images, styles, browsersync, buildJs);
+ exports.default = gulp.parallel(startwatch, images, styles, browsersync, buildJs);
 
 
 
