@@ -1,0 +1,81 @@
+.promo {
+    padding: 23px 0 82px 0;
+    min-height: 680px;
+    background: url(../images/newer/promo_bg.jpg) center center/cover;
+   
+     
+
+&__subheader {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;
+    margin-top: 40px;    
+}
+&__title {
+    color: $main-color;
+    font-family: "Roboto Condensed";
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 8px;
+}
+&__subtitle {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+&__devider {
+    margin: 0 auto;
+    margin-top: 28px;
+    display: flex;
+    max-width: 809px;
+    justify-content: space-between;
+    align-items: center;
+}
+&__line {
+    width: 47%;
+    height: 1px;
+    background-color: #fff;
+}
+&__dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+&__descr {
+    margin-top: 27px;
+}
+&__icon {
+    display: block;
+    text-align: center;
+}
+&__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    // &:nth-child(2) {
+        // padding-top: 16px;
+    // }
+}
+&__text {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff; 
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    
+
+   
+}
+
+
+}

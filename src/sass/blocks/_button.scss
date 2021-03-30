@@ -1,0 +1,51 @@
+.button {
+    background-color: $main-color;
+    border-radius: 23px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    font-size: 12px;
+    &:focus {
+        outline: none;
+     }
+    &:hover {
+        background-color: rgba(236, 100, 75, 0.7);
+    }
+    &_recall {
+        width: 160px;
+        height: 45px;
+        font-size: 12px;
+    }
+    &_calculation {
+        display: block;
+        margin: 39px auto 0 auto;
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+    }
+    &_details, &_prices {
+        display: block;
+        margin: 20px auto 0 auto;
+        width: 160px;
+        height: 45px;
+    
+    } 
+    &_prices {
+        margin-top: 24px;  
+
+    } 
+    &_consultation {
+        width: 180px;
+        height: 45px;
+        z-index: 2;
+        display: block;
+        margin: 0 auto;
+    }
+    &_questions {
+        display: block;
+        margin: 17px auto 25px auto;
+        
+    }
+    
+}

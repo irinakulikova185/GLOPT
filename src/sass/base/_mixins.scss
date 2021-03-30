@@ -1,0 +1,19 @@
+@mixin round {
+    width: 102px;
+    height: 102px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+}
+
+@mixin redline {
+    display: block;
+    margin: 0 auto;
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    margin-top: 10px;
+}

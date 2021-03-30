@@ -1,0 +1,113 @@
+.feed-back {
+    padding: 51px 0 65px 0;
+    min-height: 471px;
+    &__carousel {
+        max-width: 600px;
+        margin: 0 auto;
+        position: relative;
+        touch-action: pan-y;
+    }
+    
+    &__inner {
+         min-height: 238px;
+         margin: 31px auto 0 auto;
+    &__item {
+        position: relative;
+    }     
+        
+     }
+    &__img {
+        max-width: 114px;
+        max-height: 114px;
+        margin: 0 auto;
+        
+
+        img {
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+    }
+    &__name {
+        margin-top: 19px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: #3a3a3a;
+    }
+    &__review {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+    &__arrowNext {
+        position: absolute;
+        top: 65px;
+        left: 535px;
+        cursor: pointer;
+        z-index: 5;
+    }
+    &__arrowPrev {
+        position: absolute;
+        top: 65px;
+        left: 45px;
+        cursor: pointer;
+        z-index: 5;
+    }
+    &__indicators {
+
+        z-index: 15;
+        display: flex;
+        justify-content: center;
+        margin-right: 15%;
+        margin-left: 15%;
+        padding: 0px;
+        list-style: none;
+        display: none;
+    }
+    &__dot {
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 30px;
+        height: 6px;
+        margin-right: 3px;
+        margin-left: 3px;
+        cursor: pointer;
+        background-color: red;
+        background-clip: padding-box;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        opacity: .5;
+        transition: opacity .6s ease;
+    }
+}
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 41px;
+    left: 200px;
+ 
+    z-index: 2;
+    
+    img {
+        width: 14px;
+        height: 46px;
+        
+    }
+    &:before {
+        
+        display: none;
+    }
+}
+.slick-next {
+    
+    left: 427px; 
+}
+.slick-arrow {
+    display: none;
+}
+.slick-active {
+    outline: none;
+}

@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@import "base/variables";
+@import "base/mixins";
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/button";
+@import "blocks/advantages";
+@import "blocks/title";
+@import "blocks/work";
+@import "blocks/subtitle";
+@import "blocks/section";
+@import "blocks/prices";
+@import "blocks/consultation";
+@import "blocks/pattern";
+@import "blocks/feed-back";
+@import "blocks/questions";
+@import "blocks/map";
+@import "blocks/contacts";
+@import "blocks/footer";
+@import "blocks/pageup";
+@import "blocks/modal";
+@import "base/media";

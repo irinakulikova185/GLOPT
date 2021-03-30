@@ -1,0 +1,36 @@
+.map {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    &__info {
+        width: 329px;
+        height: 128px;
+        background-color: #ffffff;
+        position: absolute;
+        font-weight: 300;
+        font-size: 14px;
+        color: #3a3a3a;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 10px;
+        border: 1px solid red;
+        z-index: 2;
+        span {
+            font-size: 16px;
+            font-weight: 700;
+            color: $main-color;
+        }
+    }
+}
+a.map__phone {
+    color: #3a3a3a;
+    text-decoration: none;
+    &:hover {
+        color: $main-color;
+    }
+}
+a.map__email {
+    color: $main-color;
+    text-decoration: underline;
+}
